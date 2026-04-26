@@ -1,1 +1,27 @@
-📺 TVVerse: The Live Data ExplorerTVVerse is a web application that lets you search for TV shows in real-time. It connects to the TVMaze API to show you posters, ratings, and summaries. You can also save your favorite shows to a personal list.🔗 Project LinksLive Demo: https://ram-prasad-paudel.github.io/tvmaze-explorer/GitHub Repository: https://github.com/ram-prasad-paudel/tvmaze-explorer📸 Project ScreenshotsDesktop ViewThe app uses a grid layout to show multiple shows at once.Mobile ViewThe design is responsive and stacks vertically for easy phone browsing.✨ Main FeaturesLive Search: Type any show name to get instant results from the internet.Favorites: Click the "Save" button to keep shows in your "My Favorites" list.Genre Filter: Quick buttons for Drama, Comedy, Anime, and more.Loading Spinner: A visual "loading" icon shows up while waiting for data.Auto-Save: Your favorite shows stay saved even if you close the browser.🚀 How to Run the ProjectWindowsDownload the code as a ZIP and extract it.Double-click index.htmlto open it in your browser.macOSDownload and extract the ZIP file.Right-click index.htmland select Open With > Google Chrome .🛠️ Technical ReflectionThis project taught me how to use Asynchronous JavaScript to fetch data from a server. I learned how to handle the wait time using async/awaitand how to show a loading spinner so the user knows the app is working. I also focused on security by cleaning the text from the API to prevent errors.📊 Self-AssessmentCriterionPointsAPI Integration (Fetch)10/10Dynamic UI (DOM)10/10Code Quality5/5Data Persistence5/5Deployment & Git5/5TOTAL35/35⚙️ TechnologyHTML & CSS (Layout)JavaScript (Logic & API)LocalStorage (Saving Data)
+# 📺 TVVerse: The Live Data Explorer
+
+TVVerse is a web application that lets you search for TV shows in real-time using the TVMaze API.
+
+## 🔗 Project Links
+* **Live Demo:** https://ram-prasad-paudel.github.io/tvmaze-explorer/
+* **Repository:** https://github.com/ram-prasad-paudel/tvmaze-explorer
+
+## 📸 Screenshots
+### Desktop View
+![Desktop](desktop-view.png)
+
+### Mobile View
+![Mobile](mobile-view.png)
+
+## 🚀 How to Run
+1. Download the ZIP or clone the repo.
+2. Open `index.html` in Chrome or Edge.
+
+## 🛠️ Reflection
+I learned to use `fetch()` and `async/await` to handle live data. I also implemented `localStorage` to keep favorites saved even after a page refresh.
+
+## 📊 Self-Assessment
+* API & AJAX: 10/10
+* Dynamic DOM: 10/10
+* Quality & Git: 15/15
+**Total: 35/35**
